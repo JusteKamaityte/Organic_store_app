@@ -34,7 +34,7 @@ function App() {
   const itemList = items.map(item =>{
   return (
     <div className="item" key={item.id}>
-      <div><ItemCard></ItemCard></div>
+      {/* <div><ItemCard></ItemCard></div> */}
       <div>Title: {item.title}</div>
       <div>Price: {item.price}</div>
       <div>Description: {item.description}</div>
